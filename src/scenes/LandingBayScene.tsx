@@ -173,7 +173,7 @@ export function LandingBayScene() {
       <ParticleField />
 
       {/* Name - top area, fits in viewport */}
-      <Html position={[0, 3.8, 0]} center style={{ pointerEvents: 'none', width: '600px' }}>
+      <Html position={[0, 3.8, 0]} center style={{ pointerEvents: 'none', width: '90vw', maxWidth: '600px' }}>
         <div style={{ textAlign: 'center' }}>
           <h1 className="hero-name">CHIRAG MAHESHWARI</h1>
           <p className="hero-subtitle">Data Engineer • AWS Cloud • Software Engineer</p>

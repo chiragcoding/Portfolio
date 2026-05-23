@@ -111,7 +111,7 @@ export function EducationScene() {
       <GraduationCap />
 
       {/* All content in one block - no overlap possible */}
-      <Html position={[0, 0.8, 0]} center style={{ pointerEvents: 'auto', width: '480px' }}>
+      <Html position={[0, 0.8, 0]} center style={{ pointerEvents: 'auto', width: '90vw', maxWidth: '480px' }}>
         <div className="edu-text">
           <h2 className="edu-main-title">Education</h2>
           <div className="edu-row">
